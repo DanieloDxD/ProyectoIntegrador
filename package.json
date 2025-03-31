@@ -11,7 +11,8 @@
     "lint": "vue-cli-service lint",
     "lint-fix": "vue-cli-service lint --fix",
     "dev": "vite",
-    "webpack-build": "webpack --config webpack.config.js"
+    "webpack-build": "webpack --config webpack.config.js",
+    "serve-prod": "serve -s dist"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
