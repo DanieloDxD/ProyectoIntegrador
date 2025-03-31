@@ -22,7 +22,7 @@ export default defineConfig({
     host:true,
     port:4000,
     allowedHosts:[
-      "apisproyecto-913g.onrender.com"
+      "proyectointegrador-u02z.onrender.com"
     ]
   },
 })
