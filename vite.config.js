@@ -20,7 +20,7 @@ export default defineConfig({
 
   preview:{
     host:true,
-    port:8080,
+    port:4000,
     allowedHosts:[
       "apisproyecto-913g.onrender.com"
     ]
