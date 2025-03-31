@@ -18,11 +18,16 @@ export default defineConfig({
     },
   },
 
-  preview:{
-    host:true,
-    port:4000,
-    allowedHosts:[
-      "proyectointegrador-u02z.onrender.com"
-    ]
+  server: {
+    host: '0.0.0.0', // Permite accesos desde cualquier IP
+    port: 8080,
+    strictPort: true,
+    cors: true, // Habilita CORS en caso de ser necesario
+  },
+
+  preview: {
+    host: '0.0.0.0', 
+    port: 8080,
+    allowedHosts: "all"
   },
 })
