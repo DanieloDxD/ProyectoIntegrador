@@ -1,7 +1,7 @@
 <template>
   <card>
     <div class="d-flex flex-column">
-      <div class="flex-grow-1">
+      <div class="flex-grow-1 table-container">
         <tabla
           :encabezado='["Id","Id_dispositivo","Nombre","Apellido","Correo","Usuario","Contraseña","Tipo","Botones"]'
           :claves="['idusuarios','dispositivo_iddispositivo','nombre','apellido','correo','usuario','contrasenia','tipo']"
@@ -147,5 +147,8 @@ export default {
 .ml-4 {
   margin-left: 1.5rem; /* Ajusta según sea necesario */
 }
+.table-container {
+  overflow-x: auto; /* Agrega scrollbar horizontal si la tabla es más ancha que el contenedor */
+  max-width: 100%; /* Asegura que la tabla no se salga del contenedor */
+}
 </style>
-
